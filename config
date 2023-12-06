@@ -54,7 +54,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run
 
 # A more modern dmenu replacement is rofi:
-bindsym $mod+p exec "rofi -modi drun,run -show drun"
+bindsym $mod+p exec "rofi -modi drun,run -show drun -theme purple -icon-theme 'Papirus' -show-icons"
 
 # change focus
 bindsym $mod+j focus left
